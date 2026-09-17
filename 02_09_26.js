@@ -33,7 +33,7 @@ function truncateText(str, maxLength) {
     return str;
 }
 
-console.log(truncateText(myStr, 2))
+// console.log(truncateText(myStr, 2))
 
 function removeSpaces(str) {
     let result = '';
@@ -51,7 +51,7 @@ let array = [1, 2, 3, 4];
 
 const sumArray = arr => arr.reduce((acc, item) => acc+item, 0)
 
-console.log(sumArray(array));
+// console.log(sumArray(array));
 
 const filterEvenNumbers = arr => arr.filter(item => item % 2 === 0)
 
@@ -172,4 +172,4 @@ function repeatString(str, count) {
     return answer;
 }
 
-console.log(repeatString('str', 3));
+// console.log(repeatString('str', 3));
