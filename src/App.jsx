@@ -1,5 +1,5 @@
 import React from 'react';
-// import Greeting from './Greeting';
+import Greeting from './Greeting';
 // import TaskList from './TaskList';
 // import ActionButton from './ActionButton';
 // import ProfileCard from './ProfileCard';
@@ -9,10 +9,10 @@ function App() {
   return (
     <div>
       <h1>Практическая работа № 1</h1>
-      {/* <Greeting />
+      <Greeting />
       <hr />
 
-      <TaskList />
+      {/*<TaskList />
       <hr />
 
       <ActionButton />
