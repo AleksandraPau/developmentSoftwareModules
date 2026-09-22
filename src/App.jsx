@@ -1,7 +1,7 @@
 import React from 'react';
 import Greeting from './Greeting';
-// import TaskList from './TaskList';
-// import ActionButton from './ActionButton';
+import TaskList from './TaskList';
+import ActionButton from './ActionButton';
 // import ProfileCard from './ProfileCard';
 // import ImageGallery from './ImageGallery';
 
@@ -12,12 +12,12 @@ function App() {
       <Greeting />
       <hr />
 
-      {/*<TaskList />
+      <TaskList />
       <hr />
 
       <ActionButton />
       <hr />
-
+{/*
       <ProfileCard />
       <hr />
 
