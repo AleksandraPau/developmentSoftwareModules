@@ -3,7 +3,7 @@ import Greeting from './Greeting';
 import TaskList from './TaskList';
 import ActionButton from './ActionButton';
 import ProfileCard from './ProfileCard';
-// import ImageGallery from './ImageGallery';
+import ImageGallery from './ImageGallery';
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
       <ProfileCard />
       <hr />
 
-      {/* <ImageGallery /> */}
+      <ImageGallery />
     </div> 
   );
 }
